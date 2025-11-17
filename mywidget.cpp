@@ -6,7 +6,7 @@
 #include <QFileDialog>
 #include <QFileInfo>
 #include <QFileDialog>
-QString mFilename = "C:/Users/user/Desktop/ex/myfile.txt";
+QString mFilename = "C:/Users/user/Desktop/ex/getSaveFileName.txt";
 void Write(QString Filename,QString str){
     QFile mFile(Filename);
     if(!mFile.open(QFile::WriteOnly|QFile::Text)){
