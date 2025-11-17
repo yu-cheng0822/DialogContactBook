@@ -22,6 +22,10 @@ private slots:
 
     void on_pushButton_4_clicked();
 
+    void on_pushButton_clicked();
+
+    void on_pushButton_2_clicked();
+
 private:
     Ui::myWidget *ui;//用指標連至有人機介面
 };
